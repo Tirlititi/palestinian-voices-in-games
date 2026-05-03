@@ -70,6 +70,10 @@ p {
   font-size: 0.5em;
 }
 
+a > .custom-title:hover {
+  text-shadow: 3px 3px 0px rgba(210, 255, 210, 0.7), 5px 5px 0px rgba(80, 80, 70, 0.7);
+}
+
 a:has(> .custom-title) {
   color: inherit;
   text-decoration: none;
